@@ -1,22 +1,20 @@
 from src.clients import RedditClient
-from src.extract import RedditData
 from src.settings import settings
 from src.storage import ParquetStorage  # si tienes DuckDBIndex, puedes importarlo también
 
 import pandas as pd
 
 # ---------- 1) Inicialización clientes ----------
-rc = RedditClient(
+rd = RedditClient(
     client_id=settings.reddit_client_id,
     client_secret=settings.reddit_client_secret,
     username=settings.reddit_username,
 )
-rd = RedditData(rc)
 
 # ---------- 2) Descargas (DataFrames limpios) ----------
-#df_new = rd.subreddit_new_df("sneakers", limit=100, max_items=300)
-#df_top = rd.subreddit_top_df("sneakers", t="week", max_items=200)
-df_q   = rd.search_df("sneakers nike air max", sort="new", max_items=400)
+df_new = rd.subreddit_new_df("sneakers", limit=100, max_items=300)
+df_top = rd.subreddit_top_df("sneakers", t="week", max_items=200)
+df_q   = rd.search_df("christmas gift idea", sort="relevance", max_items=400)
 
 print("Shapes:", df_new.shape, df_top.shape, df_q.shape)
 print(df_new.dtypes)
