@@ -1,0 +1,10 @@
+| API                                    | Qué ofrece                                                        | Uso en tu TFM                                                          |
+| -------------------------------------- | ----------------------------------------------------------------- | ---------------------------------------------------------------------- |
+| **Reddit API**                         | Posts, comentarios, votos, menciones de productos o marcas.       | Análisis de sentimiento o volumen de conversación por marca / keyword. |
+| **YouTube Data API**                   | Descripciones, títulos, vistas y likes de vídeos sobre productos. | Detectar popularidad o engagement.                                     |
+| **NewsData.io / GNews API**            | Noticias recientes filtradas por marca o categoría.               | Contexto mediático y buzz de mercado.                                  |
+| **FakeStoreAPI / DummyJSON**           | Datos de productos (nombre, precio, categoría, imagen).           | Base realista de “productos” sobre los que simular campañas.           |
+| **OpenWeather / World Bank / INE API** | Datos socioeconómicos o climáticos (opcionales).                  | Enriquecimiento de contexto para segmentar análisis.                   |
+
+
+

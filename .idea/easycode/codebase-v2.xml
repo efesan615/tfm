@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="com.obiscr.chatgpt.settings.EasyCodeState">
+    <option name="projectFiles" value="$PROJECT_DIR$/src/clients/__init__.py;C:/Users/fsan6/tfm/src/clients/reddit.py;C:/Users/fsan6/tfm/src/extract/__init__.py;C:/Users/fsan6/tfm/src/extract/reddit_wrappers.py;C:/Users/fsan6/tfm/src/services/__init__.py;C:/Users/fsan6/tfm/src/services/reddit_dwl.py;C:/Users/fsan6/tfm/src/storage/__init__.py;C:/Users/fsan6/tfm/src/storage/io_utils.py;C:/Users/fsan6/tfm/src/storage/storage_manager.py;C:/Users/fsan6/tfm/src/transform/__init__.py;C:/Users/fsan6/tfm/src/transform/normalizers.py;C:/Users/fsan6/tfm/src/__init__.py;C:/Users/fsan6/tfm/src/logging_cfg.py;C:/Users/fsan6/tfm/src/settings.py;C:/Users/fsan6/tfm/main.py;C:/Users/fsan6/tfm/readme.md" />
+  </component>
+</project>
